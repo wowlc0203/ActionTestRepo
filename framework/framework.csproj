@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/wowlc0203/ActionTestRepo.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
