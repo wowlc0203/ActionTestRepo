@@ -24,4 +24,5 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: publish
+      
       run: dotnet nuget push framework/bin/Debug/*.nupkg --api-key ${{secrets.Token}}  --source https://nuget.pkg.github.com/wowlc0203/ActionTestRepo/index.json
